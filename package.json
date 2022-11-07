@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "javascript-node-express-challenge",
+  "description": "<img align=\"right\" width=\"200\" height=\"100\" src=\"https://ada-school.org/wp-content/uploads/2022/02/ada-school-logo.svg\">",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan1630/javascript-node-express-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan1630/javascript-node-express-challenge/issues"
+  },
+  "homepage": "https://github.com/juan1630/javascript-node-express-challenge#readme"
+}
