@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "bd553125-62f4-4182-8eaf-5b83c781c84c",
+		"name": "pruebaTickets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4437807"
+	},
+	"item": [
+		{
+			"name": "{{urlTickets1}}/api/v1/tickets/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"juan\",\r\n    \"email\":\"prueba@gmail.com\",\r\n    \"destination\":\"Cuautla\",\r\n    \"departureDate\":202315612023,\r\n    \"time\":\"2hrs\",\r\n    \"duration\":120,\r\n    \"origin\":\"Cuautla morelos\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlTickets1}}/api/v1/tickets/new",
+					"host": [
+						"{{urlTickets1}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tickets",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{urlTickets1}}/api/v1/tickets/find/63693c947fbe4bfb592ba633",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlTickets1}}/api/v1/tickets/63694f7b97bcfebb95bdfec7",
+					"host": [
+						"{{urlTickets1}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tickets",
+						"63694f7b97bcfebb95bdfec7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{urlTickets1}}/api/v1/tickets/update/63693c947fbe4bfb592ba633",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"Carlos Daniel hernandez\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlTickets1}}/api/v1/tickets/update/63694f7b97bcfebb95bdfec7",
+					"host": [
+						"{{urlTickets1}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tickets",
+						"update",
+						"63694f7b97bcfebb95bdfec7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{urlTickets1}}/api/v1/tickets/delete/63693c947fbe4bfb592ba633",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{urlTickets1}}/api/v1/tickets/delete/63694f7b97bcfebb95bdfec7",
+					"host": [
+						"{{urlTickets1}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tickets",
+						"delete",
+						"63694f7b97bcfebb95bdfec7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
